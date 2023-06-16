@@ -4,17 +4,17 @@ html {
   }
   
   a {
-    color: var(text-color(--color-black));
+    color: var(--color-black);
   }
   
   body {
     font-family: var(--font-family-base);
-    size: var(--font-size-medium);
+    font-size: var(--font-size-medium);
     color: var(--color-black);
   }
   
   h1, h2, h3, h4, h5, h6 {
-    font-family: var(font-family-title);
+    font-family: var(--font-family-title);
   }
   
   .visually-hidden {
@@ -22,7 +22,7 @@ html {
   }
   
   .card-category, .section-tagline {
-    color: var(color-primary);
+    color: var(--color-primary);
   }
   
   :root {
@@ -31,7 +31,7 @@ html {
     --color-white: #ffffff;
     --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
-    --text-color: $color-black;
+    --text-color: var(--color-black);
     --font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --font-family-title: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --font-size-small: 1.2rem;
