@@ -8,9 +8,9 @@ html {
   }
   
   body {
-    font-family: car(font-family-base);
-    size: var(font-size-medium);
-    color: var(text-color(--color-black));
+    font-family: var(--font-family-base);
+    size: var(--font-size-medium);
+    color: var(--color-black);
   }
   
   h1, h2, h3, h4, h5, h6 {
@@ -26,7 +26,7 @@ html {
   }
   
   :root {
-    --color-primary: #d73953;
+    --color-primary: #D73953;
     --color-black: #090909;
     --color-white: #ffffff;
     --color-light-grey: #f3f3f3;
