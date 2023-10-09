@@ -1,0 +1,16 @@
+$green: #00FF00;
+$red: #FF00FF;
+
+.info {
+    font-size: 12px;
+}
+
+.success {
+    @extend .info;
+    color: $green;
+}
+
+.success {
+    @extend .info;
+    color: $red;
+}
