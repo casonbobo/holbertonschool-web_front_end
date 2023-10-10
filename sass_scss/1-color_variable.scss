@@ -1,4 +1,7 @@
 $darkgrey: #3D3D3D;
-body, p {
+body {
+    $text-color: $darkgrey;
+}
+p {
     $text-color: $darkgrey;
 }
