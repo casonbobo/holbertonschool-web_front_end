@@ -572,7 +572,7 @@
       flex-direction: column;
     }
 
-    .post-meta-list .strong {
+    .post-meta-list strong {
       color: var(--color-primary);
       font-size: var(--font-size-small);
       text-transform: uppercase;
@@ -593,12 +593,12 @@
       padding: 0;
       list-style: none;
     }
-    .tag-list .li {
+    .tag-list li {
       display: inline;
     }
-    .tag-list .li::after {
+    .tag-list li::after {
       content: ", ";
     }
-    .tag-list .li::after:last-child {
+    .tag-list li::after:last-child {
       content:"";
     }
