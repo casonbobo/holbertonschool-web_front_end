@@ -16,11 +16,13 @@
                 $(this).closest('tr').remove();
             });
             createFamilyTree();
-            document.addEventListener ( "load", addNewMember('Guillaume', 'Salva'));
-            document.addEventListener ( "load", addNewMember('Arielle', 'Snizt'));
-            document.addEventListener ( "load", addNewMember('Fanette', 'Snizt'));
-            document.addEventListener ( "load", addNewMember('Gerard', 'Snizt'));
-            document.addEventListener ( "load", addNewMember('Victor', 'Salva'));
+            $(document).ready(function(){
+                addNewMember('Guillaume', 'Salva'),
+                addNewMember('Arielle', 'Snizt'),
+                addNewMember('Fanette', 'Snizt');
+                addNewMember('Gerard', 'Snizt'),
+                addNewMember('Victor', 'Salva')
+            });
         </script>
     </head>
     <body>

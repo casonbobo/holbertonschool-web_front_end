@@ -15,8 +15,10 @@
             function replaceFamilyTree() {
                 $('tbody').empty().html('<tr><td>Gerard</td><td>Bonissa</td></tr>');
             }
-            document.addEventListener ("load", createFamilyTree);
-            document.addEventListener ("load", replaceFamilyTree);
+            $(document).ready(function() {
+                createFamilyTree,
+                replaceFamilyTree
+            });
         </script>
     </head>
     <body>
